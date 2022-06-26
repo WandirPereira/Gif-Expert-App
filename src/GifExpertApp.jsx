@@ -1,6 +1,7 @@
 import React, { useState } from 'react'
-import {AddCategory} from './components/AddCategory'
-import { GifGrid } from './components/GifGrid'
+import {AddCategory, GifGrid } from './components';
+// import {AddCategory} from './components/AddCategory'
+// import { GifGrid } from './components/GifGrid'
 //akeTxHgvQS9T46TcG6zV0kAn8NVRE9Ub
 
 
@@ -13,7 +14,7 @@ export const GifExpertApp = () => {
       if ( categories.includes( newCategory )) return;
       setCategories([ newCategory, ...categories ]);
       //setCategories([ 'Valorant']);
-      console.log( newCategory );
+      //console.log( newCategory );
   }
 
   return (
